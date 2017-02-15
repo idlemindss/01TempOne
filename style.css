@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+#mainBackground {
+  border:1px solid red;
+  height:500px;
+  background-image: url('https://idlemindss.github.io/Presley-Templates/01TempOne/images/musician.jpg');
+}
+.navbar-brand {
+  font-size: 25px;
+}
+.navbar-left {
+  font-size: 14px;
+}
+/*nav bar*/
+#custom-bootstrap-menu {
+  height:50px;
+}
+#custom-bootstrap-menu.navbar-default .navbar-brand {
+    color: rgba(0, 0, 0, 1);
+}
+#custom-bootstrap-menu.navbar-default {
+    background-color: rgba(255, 255, 255, 1);
+    border-width: 0px;
+    border-radius: 4px;
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
+    color: rgba(0, 0, 0, 1);
+    background-color: rgba(255, 255, 255, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(123, 101, 133, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(123, 101, 133, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle {
+    border-color: #7b6585;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
+    background-color: #7b6585;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
+    background-color: #7b6585;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #ffffff;
+}
+/*end nav bar*/
