@@ -2,7 +2,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 #mainBackground {
-  border:1px solid red;
+  border:1px solid purple;
   height:500px;
   background-image: url('https://idlemindss.github.io/Presley-Templates/01TempOne/images/musician.jpg');
 }
